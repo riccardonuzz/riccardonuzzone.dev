@@ -1,28 +1,12 @@
-import SkillsSection from "../skills-section/skills-section";
-import { WindowCard } from "../window-card/window-card"
+import { Experience } from "@/types/data";
+import SkillsSection from "../../skills-section/skills-section";
+import { WindowCard } from "../../window-card/window-card"
 
-interface Technology {
-    name: string;
-    icon: string;
-}
 
-interface Project {
-    name: string;
-    description: string;
-}
-
-interface Experience {
-    company: string;
-    projects: Project[];
-    location: string;
-    from: string;
-    to: string;
-    technologies: Technology[]
-}
-
-interface ExperiencesSectionProps {
+export interface ExperiencesSectionProps {
     experiences: Experience[]
 }
+
 
 const ExperiencesSection = ({ experiences }: ExperiencesSectionProps) => {
     return experiences.map(experience => {

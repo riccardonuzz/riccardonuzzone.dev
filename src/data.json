@@ -46,7 +46,7 @@
         },
         {
             "name": "React Native",
-            "icon": "/reactnative.png"
+            "icon": "/react.png"
         }
     ],
     "experiences": [
@@ -163,7 +163,7 @@
                 },
                 {
                     "name": "Angular.js",
-                    "icon": "/angularjs.jpg"
+                    "icon": "/angular.png"
                 },
                 {
                     "name": "Webpack",
@@ -184,6 +184,81 @@
                 {
                     "name": "SCRUM",
                     "icon": "scrum.svg"
+                }
+            ]
+        },
+        {
+            "company": "Modis",
+            "projects": [
+                {
+                    "name": "Wolters Kluwer Italia",
+                    "description": "IT consultancy for Wolters Kluwer Italia as a Front - End Developer. I am working on a management platform for notaries. Technologies: Angular 8, TypeScript, DevExpress, JQuery, Webpack, Rollup. The development process has been setted up with SCRUM framework."
+                },
+                {
+                    "name": "Auriga S.p.a.",
+                    "description": "IT consultancy for Auriga S.P.A. as a Frontend Developer. I'm working on a management platform for several banks using TypeScript, React.js, Redux, Redux Saga, Webpack, Umi.js, Ant Design, Node.js, Less, Lerna, Rollup, Jitsi Meet, Guacamole. The development process has been setted up with SCRUM framework."
+                }
+            ],
+            "role": "Front-End Developer",
+            "location": "Bari (remote)",
+            "from": "04/2019",
+            "to": "05/2020",
+            "technologies": [
+                {
+                    "name": "Angular",
+                    "icon": "/angular.png"
+                },
+                {
+                    "name": "Rx.js",
+                    "icon": "/rxjs.png"
+                },
+                {
+                    "name": "TypeScript",
+                    "icon": "/typescript.svg"
+                },
+                {
+                    "name": "jQuery",
+                    "icon": "/jquery.png"
+                },
+                {
+                    "name": "Webpack",
+                    "icon": "/webpack.png"
+                },
+                {
+                    "name": "Rollup",
+                    "icon": "/rollup.jpg"
+                },
+                {
+                    "name": "SCRUM",
+                    "icon": "scrum.svg"
+                },
+                {
+                    "name": "Node.js",
+                    "icon": "/nodejs.png"
+                },
+                {
+                    "name": "React",
+                    "icon": "/react.png"
+                },
+                {
+                    "name": "Redux",
+                    "icon": "/redux.svg"
+                },
+                {
+                    "name": "Formik",
+                    "icon": "/formik.png"
+                },
+                {
+                    "name": "Yup",
+                    "icon": ""
+                },
+                {
+                    "name": "Less",
+                    "icon": "/less.webp"
+                },
+                {
+                    "name": "Lerna",
+                    "icon": "/lerna.png"
                 }
             ]
         }

@@ -1,4 +1,3 @@
-import React from 'react'
 import Chip from '../common/chip/chip'
 import Image from 'next/image'
 
@@ -13,12 +12,13 @@ const SkillsSection = ({ skills }: SkillsSectionProps) => {
                 {
                     skill.icon &&
                     <div className='inline mr-2 bg-white p-1 rounded-full h-7 w-7'>
-                        <div className='flex items-center justify-center h-full'>
+                        <div className='flex items-center justify-center h-full p-1'>
                             <Image
                                 src={skill.icon}
                                 alt={skill.name}
                                 width={12}
                                 height={12}
+                                className='w-auto h-auto object-contain'
                             />
 
                         </div>

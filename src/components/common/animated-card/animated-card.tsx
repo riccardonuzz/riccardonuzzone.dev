@@ -1,6 +1,6 @@
 'use client'
 
-import React, { CSSProperties, MouseEvent, ReactNode, TouchEvent, useEffect, useRef, useState } from 'react'
+import { CSSProperties, Children, MouseEvent, ReactElement, ReactNode, TouchEvent, cloneElement, createElement, useEffect, useRef, useState } from 'react'
 import './animated-card.css'
 
 interface ParallaxCardProps {
@@ -11,7 +11,7 @@ interface ParallaxCardProps {
     onClick?: (event: MouseEvent) => void;
     style?: CSSProperties;
     className?: string;
-    children: ReactNode[];
+    children: ReactElement[];
 }
 
 const ParallaxCard = ({
@@ -30,7 +30,7 @@ const ParallaxCard = ({
     const [container, setContainer] = useState({})
     const [shine, setShine] = useState({})
 
-    const layers = (children ? (children as ReactNode[]).length ? children : [children] : [React.createElement('div', { style, className }, [])])
+    const layers = (children ? (children as ReactElement[]).length ? children : [children] : [createElement('div', { style, className }, [])])
     const [layersTransform, setLayersTransform] = useState<ReactNode[] | { transform: string }[]>([])
 
     const node = useRef<HTMLDivElement>(null)
@@ -119,14 +119,13 @@ const ParallaxCard = ({
             >
                 {
                     layersTransform &&
-                    React.Children.map(layers, (child: any, idx) => {
+                    Children.map(layers as ReactElement[], (child: ReactElement, idx) => {
                         const childStyle = child?.props.style
                         const layersData = layersTransform[idx] ? layersTransform[idx] : {}
-                        return React.cloneElement(child, {
+                        return cloneElement(child, {
                             style: {
                                 ...childStyle,
                                 transition: 'all 0.1s ease-out',
-                                // zIndex: '4',
                                 ...layersData
                             }
                         })

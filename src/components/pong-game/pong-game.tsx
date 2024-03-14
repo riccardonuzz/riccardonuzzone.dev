@@ -5,9 +5,13 @@ import { MouseEvent, useEffect, useRef, useState } from "react"
 
 const PongGame = () => {
     const router = useRouter()
+    let myImage: HTMLImageElement | null = null
 
-    const myImage = new Image(20, 20);
-    myImage.src = "/pong/react.png";
+    if (typeof window === 'object' || typeof document === 'object') {
+        myImage = new Image(20, 20)
+        myImage.src = "/pong/react.png"
+    }
+
 
     const containerRef = useRef<HTMLDivElement>(null)
     const canvasRef = useRef<HTMLCanvasElement>(null)
@@ -176,7 +180,8 @@ const PongGame = () => {
 
             // Draw ball
             // ctx.beginPath();
-            ctx.drawImage(myImage, ballPropertiesRef.current?.ballX - 15, ballPropertiesRef.current?.ballY - 15, 30, 30);
+            if (myImage)
+                ctx.drawImage(myImage, ballPropertiesRef.current?.ballX - 15, ballPropertiesRef.current?.ballY - 15, 30, 30);
             // ctx.arc(ballPropertiesRef.current?.ballX, ballPropertiesRef.current?.ballY, ballPropertiesRef.current?.ballRadius, 0, Math.PI * 2);
             // ctx.fill();
             // ctx.closePath();

@@ -1,16 +1,11 @@
 import type { Metadata } from "next";
-import { Inter, Roboto } from "next/font/google";
+import localFont from 'next/font/local'
+import { ReactNode, Suspense } from "react";
+
 import "./globals.css";
 import Flashlight from "@/components/flashlight/flashlight";
-import { Suspense } from "react";
 import SideMenu from "@/components/side-menu/side-menu";
 
-// const inter = Inter({ subsets: ["latin"] });
-
-import localFont from 'next/font/local'
- 
-// Font files can be colocated inside of `pages`
-const myFont = localFont({ variable: '--font-sf', src: './../fonts/SFMono-Light.otf' })
 
 export const metadata: Metadata = {
   title: "Riccardo Nuzzone",
@@ -18,7 +13,7 @@ export const metadata: Metadata = {
 };
 
 interface RootLayoutProps {
-  children: React.ReactNode
+  children: ReactNode
 }
 
 const RootLayout = ({ children }: Readonly<RootLayoutProps>) => {
@@ -39,7 +34,7 @@ const RootLayout = ({ children }: Readonly<RootLayoutProps>) => {
           </div>
         </div>
 
-        <svg className="max-md:hidden">
+        <svg className="fixed">
           <filter id='grain'>
             <feTurbulence
               type='turbulence'
@@ -47,7 +42,6 @@ const RootLayout = ({ children }: Readonly<RootLayoutProps>) => {
             />
           </filter>
         </svg>
-
 
       </body>
     </html>
