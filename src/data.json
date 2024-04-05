@@ -313,7 +313,7 @@
   "projects": [
     {
       "name": "Covid-19 dashboard",
-      "description": "",
+      "description": "Really enjoyed developing this dashboard during Covid-19 pandemic using Italy government's open data. Every counter/chart is presented as a draggable and resizable widget and the entire dashboard can be customized by positioning elements wherever the user wants to. It also supports theme switching with dark and light mode.",
       "image": "/projects/covid19dashboard.png",
       "link": "https://riccardonuzz.github.io/covid19-dashboard/",
       "technologies": [

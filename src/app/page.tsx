@@ -11,15 +11,17 @@ const Home = () => {
         <IntroductionSection skills={data.skills} />
       </section>
 
-      <section id='work-experiences' className='pt-14'>
+      <section id='work-experiences' className='pt-20'>
         <h1 className="text-3xl mb-7 text-end">work experiences /</h1>
         <ExperiencesSection experiences={data.experiences} />
       </section>
 
-      <section id="personal-projects" className="pt-32">
+      <section id="personal-projects" className="pt-20">
         <h1 className="text-3xl mb-7 text-end">personal projects /</h1>
         <PersonalProjectsSection projects={data.projects} />
       </section>
+
+      <footer>Made with 🧡 by Riccardo Nuzzone using Next.js and React </footer>
     </main>
   )
 }

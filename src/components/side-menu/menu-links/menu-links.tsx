@@ -92,7 +92,7 @@ const MenuLinks = () => {
       </li>
       <li
         className={classNames(
-          "text-red-600 transition hover:scale-125 duration-500 max-sm:hidden",
+          "text-red-600 transition hover:scale-125 duration-500 max-md:hidden",
           isActive(links[3])
         )}
       >

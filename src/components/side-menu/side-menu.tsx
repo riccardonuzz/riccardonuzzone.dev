@@ -7,7 +7,7 @@ import classNames from "classnames";
 
 const SideMenu = () => {
   return (
-    <aside className="flex flex-col justify-center items-center w-full max-md:h-screen relative">
+    <aside className="flex flex-col justify-center items-center w-full max-md:h-dvh relative">
       <div className="flex flex-col items-end max-md:items-center max-md:pt-5">
         <span className="text-[16px] mr-1 d-inline-block">
           Riccardo Nuzzone
