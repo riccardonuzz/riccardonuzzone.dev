@@ -21,7 +21,7 @@ const Home = () => {
         <PersonalProjectsSection projects={data.projects} />
       </section>
 
-      <footer>Made with 🧡 by Riccardo Nuzzone using Next.js and React </footer>
+      <footer className='text-center mb-4'>Made with 🧡 by Riccardo Nuzzone using Next.js and React </footer>
     </main>
   )
 }
