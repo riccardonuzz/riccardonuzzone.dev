@@ -1,25 +1,28 @@
-import type { Metadata } from "next";
-import localFont from 'next/font/local'
+import type { Metadata, Viewport } from "next";
+import localFont from "next/font/local";
 import { ReactNode, Suspense } from "react";
 
 import "./globals.css";
 import Flashlight from "@/components/flashlight/flashlight";
 import SideMenu from "@/components/side-menu/side-menu";
 
-
 export const metadata: Metadata = {
   title: "Riccardo Nuzzone",
-  description: "Riccardo Nuzzone: a passionate front-end developer!",
+  description: "Riccardo Nuzzone: a passionate front-end developer!"
 };
 
+export const viewport: Viewport = {
+  themeColor: '#130d92',
+}
+
 interface RootLayoutProps {
-  children: ReactNode
+  children: ReactNode;
 }
 
 const RootLayout = ({ children }: Readonly<RootLayoutProps>) => {
   return (
     <html lang="en">
-      <body >
+      <body>
         <div className="layout w-full z-10 h-full max-md:overflow-y-auto max-md:before:h-full max-md:after:h-full">
           <Suspense>
             <Flashlight />
@@ -35,17 +38,13 @@ const RootLayout = ({ children }: Readonly<RootLayoutProps>) => {
         </div>
 
         <svg className="fixed">
-          <filter id='grain'>
-            <feTurbulence
-              type='turbulence'
-              baseFrequency='0.75'
-            />
+          <filter id="grain">
+            <feTurbulence type="turbulence" baseFrequency="0.75" />
           </filter>
         </svg>
-
       </body>
     </html>
   );
-}
+};
 
-export default RootLayout
+export default RootLayout;

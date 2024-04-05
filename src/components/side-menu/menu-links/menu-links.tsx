@@ -38,15 +38,15 @@ const MenuLinks = () => {
         if (entry.isIntersecting) {
           if (entry.target.id === links[0]) {
             setActiveSection(links[0]);
-            document.location.hash = links[0];
+            // document.location.hash = links[0];
           }
           if (entry.target.id === links[1]) {
             setActiveSection(links[1]);
-            document.location.hash = links[1];
+            // document.location.hash = links[1];
           }
           if (entry.target.id === links[2]) {
             setActiveSection(links[2]);
-            document.location.hash = links[2];
+            // document.location.hash = links[2];
           }
         }
       });
@@ -92,7 +92,7 @@ const MenuLinks = () => {
       </li>
       <li
         className={classNames(
-          "text-red-600 transition hover:scale-125 duration-500",
+          "text-red-600 transition hover:scale-125 duration-500 max-sm:hidden",
           isActive(links[3])
         )}
       >

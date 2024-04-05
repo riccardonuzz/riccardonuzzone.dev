@@ -17,8 +17,10 @@ const IntroductionSection = ({ skills }: IntroductionSectionProps) => {
                     autoPlay
                     muted
                     loop
+                    playsInline
                     width={500}
                     height={500}
+                    className='pointer-events-none'
                 >
                     <source src="/fedeveloper.webm" />
                     Your browser does not support the video tag.

@@ -12,7 +12,7 @@ const Home = () => {
       </section>
 
       <section id='work-experiences' className='pt-14'>
-        <h1 className="text-3xl mb-7 text-end">professional experiences /</h1>
+        <h1 className="text-3xl mb-7 text-end">work experiences /</h1>
         <ExperiencesSection experiences={data.experiences} />
       </section>
 
