@@ -1,266 +1,371 @@
 {
-    "skills": [
+  "skills": [
+    {
+      "name": "JavaScript",
+      "icon": "/js.png"
+    },
+    {
+      "name": "ES6+",
+      "icon": "/ecmascript.png"
+    },
+    {
+      "name": "TypeScript",
+      "icon": "/typescript.svg"
+    },
+    {
+      "name": "React",
+      "icon": "/react.png"
+    },
+    {
+      "name": "Angular",
+      "icon": "/angular.png"
+    },
+    {
+      "name": "Rx.js",
+      "icon": "/rxjs.png"
+    },
+    {
+      "name": "Redux",
+      "icon": "/redux.svg"
+    },
+    {
+      "name": "HTML5",
+      "icon": "/html5.png"
+    },
+    {
+      "name": "CSS3",
+      "icon": "/css3.png"
+    },
+    {
+      "name": "Tailwind",
+      "icon": "/tailwind.png"
+    },
+    {
+      "name": "Bootstrap",
+      "icon": "/bootstrap.png"
+    },
+    {
+      "name": "React Native",
+      "icon": "/react.png"
+    }
+  ],
+  "experiences": [
+    {
+      "company": "Lutech S.p.a. (Finwave)",
+      "projects": [
         {
-            "name": "JavaScript",
-            "icon": "/js.png"
-        },
-        {
-            "name": "ES6+",
-            "icon": "/ecmascript.png"
-        },
-        {
-            "name": "TypeScript",
-            "icon": "/typescript.svg"
-        },
-        {
-            "name": "React",
-            "icon": "/react.png"
-        },
-        {
-            "name": "Angular",
-            "icon": "/angular.png"
-        },
-        {
-            "name": "Rx.js",
-            "icon": "/rxjs.png"
-        },
-        {
-            "name": "Redux",
-            "icon": "/redux.svg"
-        },
-        {
-            "name": "HTML5",
-            "icon": "/html5.png"
-        },
-        {
-            "name": "CSS3",
-            "icon": "/css3.png"
-        },
-        {
-            "name": "Tailwind",
-            "icon": "/tailwind.png"
-        },
-        {
-            "name": "Bootstrap",
-            "icon": "/bootstrap.png"
-        },
-        {
-            "name": "React Native",
-            "icon": "/react.png"
+          "name": "PEF 3.0",
+          "description": "Actually involved in development process of banking solutions for factoring sector which communicates with other several banking services. Management app is developed using Angular as front - end framework and Angular Material as UI library. The project also implies the coordination of two resources as a lead front-end developer."
         }
-    ],
-    "experiences": [
+      ],
+      "role": "Lead Front-End Developer",
+      "location": "Bari (remote)",
+      "from": "10/2022",
+      "to": "TODAY",
+      "technologies": [
         {
-            "company": "Lutech S.p.a. (Finwave)",
-            "projects": [
-                {
-                    "name": "PEF 3.0",
-                    "description": "Actually involved in development process of banking solutions for factoring sector which communicates with other several banking services. Management app is developed using Angular as front - end framework and Angular Material as UI library. The project also implies the coordination of two resources as a lead front-end developer."
-                }
-            ],
-            "role": "Lead Front-End Developer",
-            "location": "Bari (remote)",
-            "from": "10/2022",
-            "to": "TODAY",
-            "technologies": [
-                {
-                    "name": "Angular",
-                    "icon": "/angular.png"
-                },
-                {
-                    "name": "Angular material",
-                    "icon": "/angularmaterial.svg"
-                },
-                {
-                    "name": "Rx.js",
-                    "icon": "/rxjs.png"
-                }
-            ]
+          "name": "Angular",
+          "icon": "/angular.png"
         },
         {
-            "company": "ACME Italia (Gruppo Progetti & Soluzioni)",
-            "projects": [
-                {
-                    "name": "Omnibus",
-                    "description": "A school refectories software as a Front-End developer using following technologies: React (with hooks), SWR, Storybook, Rollup, Sass, Formik, Yup, Bootstrap Italia and Laravel"
-                },
-                {
-                    "name": "Logger",
-                    "description": "Node.js logger with high performance optimizations with Node.js clustering, express, MongoDb and Pm2"
-                }
-            ],
-            "role": "Senior Front-End Developer",
-            "location": "Bari (remote)",
-            "from": "07/2021",
-            "to": "10/2022",
-            "technologies": [
-                {
-                    "name": "React",
-                    "icon": "/react.png"
-                },
-                {
-                    "name": "SWR",
-                    "icon": "/swr.png"
-                },
-                {
-                    "name": "StoryBook",
-                    "icon": "/storybook.svg"
-                },
-                {
-                    "name": "Rollup",
-                    "icon": "/rollup.jpg"
-                },
-                {
-                    "name": "Sass",
-                    "icon": "/sass.png"
-                },
-                {
-                    "name": "Formik",
-                    "icon": "/formik.png"
-                },
-                {
-                    "name": "Yup",
-                    "icon": ""
-                },
-                {
-                    "name": "Bootstrap Italia",
-                    "icon": "/bootstrapitalia.png"
-                },
-                {
-                    "name": "Node.js",
-                    "icon": "/nodejs.png"
-                },
-                {
-                    "name": "Express",
-                    "icon": "/express.jpg"
-                },
-                {
-                    "name": "MongoDB",
-                    "icon": "/mongodb.png"
-                },
-                {
-                    "name": "PM2",
-                    "icon": "/pm2.png"
-                }
-            ]
+          "name": "Angular material",
+          "icon": "/angularmaterial.svg"
         },
         {
-            "company": "Objectway S.p.a.",
-            "projects": [
-                {
-                    "name": "Eximius",
-                    "description": "Development of an application for investing portfolios management. We are working on its conversion to Angular 11 (The app was built on top of Angular.js) keeping compatibility with Angular.js. Technologies: Angular, Angular.js, webpack, Kendo.UI, JQuery, TypeScript and Microsoft SQL Server. The development process has been setted up with SCRUM framework and common AGILE practices."
-                }
-            ],
-            "role": "Front-End Developer",
-            "location": "Bari (remote)",
-            "from": "05/2020",
-            "to": "07/2021",
-            "technologies": [
-                {
-                    "name": "Angular",
-                    "icon": "/angular.png"
-                },
-                {
-                    "name": "Angular.js",
-                    "icon": "/angular.png"
-                },
-                {
-                    "name": "Webpack",
-                    "icon": "/webpack.png"
-                },
-                {
-                    "name": "Kendo UI",
-                    "icon": "/kendoui.png"
-                },
-                {
-                    "name": "jQuery",
-                    "icon": "/jquery.png"
-                },
-                {
-                    "name": "TypeScript",
-                    "icon": "/typescript.svg"
-                },
-                {
-                    "name": "SCRUM",
-                    "icon": "scrum.svg"
-                }
-            ]
-        },
-        {
-            "company": "Modis",
-            "projects": [
-                {
-                    "name": "Wolters Kluwer Italia",
-                    "description": "IT consultancy for Wolters Kluwer Italia as a Front - End Developer. I am working on a management platform for notaries. Technologies: Angular 8, TypeScript, DevExpress, JQuery, Webpack, Rollup. The development process has been setted up with SCRUM framework."
-                },
-                {
-                    "name": "Auriga S.p.a.",
-                    "description": "IT consultancy for Auriga S.P.A. as a Frontend Developer. I'm working on a management platform for several banks using TypeScript, React.js, Redux, Redux Saga, Webpack, Umi.js, Ant Design, Node.js, Less, Lerna, Rollup, Jitsi Meet, Guacamole. The development process has been setted up with SCRUM framework."
-                }
-            ],
-            "role": "Front-End Developer",
-            "location": "Bari (remote)",
-            "from": "04/2019",
-            "to": "05/2020",
-            "technologies": [
-                {
-                    "name": "Angular",
-                    "icon": "/angular.png"
-                },
-                {
-                    "name": "Rx.js",
-                    "icon": "/rxjs.png"
-                },
-                {
-                    "name": "TypeScript",
-                    "icon": "/typescript.svg"
-                },
-                {
-                    "name": "jQuery",
-                    "icon": "/jquery.png"
-                },
-                {
-                    "name": "Webpack",
-                    "icon": "/webpack.png"
-                },
-                {
-                    "name": "Rollup",
-                    "icon": "/rollup.jpg"
-                },
-                {
-                    "name": "SCRUM",
-                    "icon": "scrum.svg"
-                },
-                {
-                    "name": "Node.js",
-                    "icon": "/nodejs.png"
-                },
-                {
-                    "name": "React",
-                    "icon": "/react.png"
-                },
-                {
-                    "name": "Redux",
-                    "icon": "/redux.svg"
-                },
-                {
-                    "name": "Formik",
-                    "icon": "/formik.png"
-                },
-                {
-                    "name": "Yup",
-                    "icon": ""
-                },
-                {
-                    "name": "Less",
-                    "icon": "/less.webp"
-                },
-                {
-                    "name": "Lerna",
-                    "icon": "/lerna.png"
-                }
-            ]
+          "name": "Rx.js",
+          "icon": "/rxjs.png"
         }
-    ]
+      ]
+    },
+    {
+      "company": "ACME Italia (Gruppo Progetti & Soluzioni)",
+      "projects": [
+        {
+          "name": "Omnibus",
+          "description": "A school refectories management software for italian public administrations. Customers can subscribe to multiple services through the front office application while the back office one allows employees to manage them."
+        },
+        {
+          "name": "Logger",
+          "description": "Node.js logger with high performance optimizations with Node.js clustering, express, MongoDb and Pm2"
+        }
+      ],
+      "role": "Senior Front-End Developer",
+      "location": "Bari (remote)",
+      "from": "07/2021",
+      "to": "10/2022",
+      "technologies": [
+        {
+          "name": "React",
+          "icon": "/react.png"
+        },
+        {
+          "name": "SWR",
+          "icon": "/swr.png"
+        },
+        {
+          "name": "StoryBook",
+          "icon": "/storybook.svg"
+        },
+        {
+          "name": "Rollup",
+          "icon": "/rollup.jpg"
+        },
+        {
+          "name": "Sass",
+          "icon": "/sass.png"
+        },
+        {
+          "name": "Formik",
+          "icon": "/formik.png"
+        },
+        {
+          "name": "Yup",
+          "icon": ""
+        },
+        {
+          "name": "Bootstrap Italia",
+          "icon": "/bootstrapitalia.png"
+        },
+        {
+          "name": "Node.js",
+          "icon": "/nodejs.png"
+        },
+        {
+          "name": "Express",
+          "icon": "/express.jpg"
+        },
+        {
+          "name": "MongoDB",
+          "icon": "/mongodb.png"
+        },
+        {
+          "name": "PM2",
+          "icon": "/pm2.png"
+        },
+        {
+          "name": "SCRUM",
+          "icon": "/scrum.svg"
+        }
+      ]
+    },
+    {
+      "company": "Objectway S.p.a.",
+      "projects": [
+        {
+          "name": "Eximius",
+          "description": "Development of an application for investing portfolios management. We worked on its conversion to Angular 11 (the app was built on top of Angular.js) keeping compatibility with Angular.js. The development process has been setted up with SCRUM framework and common AGILE practices."
+        }
+      ],
+      "role": "Front-End Developer",
+      "location": "Bari (remote)",
+      "from": "05/2020",
+      "to": "07/2021",
+      "technologies": [
+        {
+          "name": "Angular",
+          "icon": "/angular.png"
+        },
+        {
+          "name": "Angular.js",
+          "icon": "/angular.png"
+        },
+        {
+          "name": "Webpack",
+          "icon": "/webpack.png"
+        },
+        {
+          "name": "Kendo UI",
+          "icon": "/kendoui.png"
+        },
+        {
+          "name": "jQuery",
+          "icon": "/jquery.png"
+        },
+        {
+          "name": "TypeScript",
+          "icon": "/typescript.svg"
+        },
+        {
+          "name": "SCRUM",
+          "icon": "/scrum.svg"
+        }
+      ]
+    },
+    {
+      "company": "Modis",
+      "projects": [
+        {
+          "name": "Wolters Kluwer Italia",
+          "description": "IT consultancy for Wolters Kluwer Italia as a Front - End Developer. I am working on a management platform for notaries. Technologies: Angular 8, TypeScript, DevExpress, JQuery, Webpack, Rollup. The development process has been setted up with SCRUM framework."
+        },
+        {
+          "name": "Auriga S.p.a.",
+          "description": "IT consultancy for Auriga S.P.A. as a Frontend Developer. I'm working on a management platform for several banks using TypeScript, React.js, Redux, Redux Saga, Webpack, Umi.js, Ant Design, Node.js, Less, Lerna, Rollup, Jitsi Meet, Guacamole. The development process has been setted up with SCRUM framework."
+        }
+      ],
+      "role": "Front-End Developer",
+      "location": "Bari (remote)",
+      "from": "04/2019",
+      "to": "05/2020",
+      "technologies": [
+        {
+          "name": "Angular",
+          "icon": "/angular.png"
+        },
+        {
+          "name": "Rx.js",
+          "icon": "/rxjs.png"
+        },
+        {
+          "name": "TypeScript",
+          "icon": "/typescript.svg"
+        },
+        {
+          "name": "jQuery",
+          "icon": "/jquery.png"
+        },
+        {
+          "name": "Webpack",
+          "icon": "/webpack.png"
+        },
+        {
+          "name": "Rollup",
+          "icon": "/rollup.jpg"
+        },
+        {
+          "name": "SCRUM",
+          "icon": "scrum.svg"
+        },
+        {
+          "name": "Node.js",
+          "icon": "/nodejs.png"
+        },
+        {
+          "name": "React",
+          "icon": "/react.png"
+        },
+        {
+          "name": "Redux",
+          "icon": "/redux.svg"
+        },
+        {
+          "name": "Formik",
+          "icon": "/formik.png"
+        },
+        {
+          "name": "Yup",
+          "icon": ""
+        },
+        {
+          "name": "Less",
+          "icon": "/less.webp"
+        },
+        {
+          "name": "Lerna",
+          "icon": "/lerna.png"
+        }
+      ]
+    },
+    {
+      "company": "Reason (startup)",
+      "projects": [
+        {
+          "name": "Reason",
+          "description": "I worked on an application that allows to track donations to no - profit organizations using blockchain technologies. The development process has been setted up with SCRUM framework."
+        }
+      ],
+      "role": "Front-End Developer",
+      "location": "Milano (remote)",
+      "from": "04/2019",
+      "to": "09/2019",
+      "technologies": [
+        {
+          "name": "SCRUM",
+          "icon": "scrum.svg"
+        },
+        {
+          "name": "Node.js",
+          "icon": "/nodejs.png"
+        },
+        {
+          "name": "React",
+          "icon": "/react.png"
+        },
+        {
+          "name": "Redux",
+          "icon": "/redux.svg"
+        },
+        {
+          "name": "Material UI",
+          "icon": "/materialui.png"
+        },
+        {
+          "name": "Moment",
+          "icon": "/moment.png"
+        },
+        {
+          "name": "Chart.js",
+          "icon": "/chartjs.png"
+        }
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Covid-19 dashboard",
+      "description": "",
+      "image": "/projects/covid19dashboard.png",
+      "link": "https://riccardonuzz.github.io/covid19-dashboard/",
+      "technologies": [
+        {
+          "name": "Angular",
+          "icon": "/angular.png"
+        },
+        {
+          "name": "TypeScript",
+          "icon": "/typescript.svg"
+        },
+        {
+          "name": "Leaflet",
+          "icon": "/leaflet.jpg"
+        },
+        {
+          "name": "Angular Gridster",
+          "icon": ""
+        }
+      ]
+    },
+    {
+      "name": "Mensa ADISU Bari",
+      "description": "Worked on this project when I still was a student. The application available on Google Play Store, provides informations about daily lunch/dinner meals in the academic refectories.",
+      "image": "/projects/mensaadisu.png",
+      "link": "https://riccardonuzz.github.io/mensa-adisu-bari/",
+      "technologies": [
+        {
+          "name": "JavaScript",
+          "icon": "/js.png"
+        },
+        {
+          "name": "ES6+",
+          "icon": "/ecmascript.png"
+        },
+        {
+          "name": "React",
+          "icon": "/react.png"
+        },
+        {
+          "name": "Redux",
+          "icon": "/redux.svg"
+        },
+        {
+          "name": "Material UI",
+          "icon": "/materialui.png"
+        },
+        {
+          "name": "Moment",
+          "icon": "/moment.png"
+        }
+      ]
+    }
+  ]
 }

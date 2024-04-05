@@ -28,7 +28,7 @@ const RootLayout = ({ children }: Readonly<RootLayoutProps>) => {
             <div className="flex col-span-4 max-md:col-span-12 max-lg:col-span-5">
               <SideMenu />
             </div>
-            <div className="flex col-span-8 max-md:col-span-12 max-lg:col-span-7">
+            <div className="col-span-8 max-md:col-span-12 max-lg:col-span-7">
               {children}
             </div>
           </div>

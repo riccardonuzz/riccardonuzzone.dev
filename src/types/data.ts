@@ -11,9 +11,17 @@ export interface Project {
 export interface Experience {
     company: string;
     projects: Project[];
+    role: string;
     location: string;
     from: string;
     to: string;
     technologies: Technology[]
 }
 
+export interface PersonalProject {
+    name: string;
+    description: string;
+    image: string;
+    link: string;
+    technologies: Technology[]
+}

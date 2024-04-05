@@ -2,7 +2,7 @@ import { PongGame } from '@/components/pong-game/pong-game'
 
 const Page404 = () => {
   return (
-    <main className='w-full flex items-center flex-col p-32'>
+    <main className='w-full h-full flex items-center flex-col p-32'>
       <div className='w-full text-center'>
         <h1 className='text-5xl'>Whoops!</h1>
         <h2 className='text-xl'>You certainly didn&apos;t find you page but here is a good old game to enjoy 🧡</h2>
