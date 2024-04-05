@@ -23,6 +23,7 @@ jobs:
           password: ${{ secrets.PASSWORD }}
           script: |
             cd /var/www/nextjs/riccardonuzzone.dev
+            echo "$PWD"
             npm i
       - name: Running build
         uses: appleboy/ssh-action@v1.0.3
