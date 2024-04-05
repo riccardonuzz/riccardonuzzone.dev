@@ -22,7 +22,7 @@ const IntroductionSection = ({ skills }: IntroductionSectionProps) => {
                     height={500}
                     className='pointer-events-none'
                 >
-                    <source src="/fedeveloper.webm" />
+                    <source src="/fedeveloper.webm" type="video/webm"/>
                     Your browser does not support the video tag.
                 </video>
             </div>
