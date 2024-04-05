@@ -17,6 +17,7 @@ interface RootLayoutProps {
 }
 
 const RootLayout = ({ children }: Readonly<RootLayoutProps>) => {
+  
   return (
     <html lang="en">
       <body >

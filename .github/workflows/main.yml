@@ -15,4 +15,29 @@ jobs:
           username: ${{ secrets.SSH_USER }}
           password: ${{ secrets.PASSWORD }}
           rmRemote: true
+      - name: Reinstalling packages
+        uses: appleboy/ssh-action@v1.0.3
+        with:
+          host: ${{ secrets.HOST }}
+          username: ${{ secrets.SSH_USER }}
+          password: ${{ secrets.PASSWORD }}
+          script: |
+            cd /var/www/nextjs/riccardonuzzone.dev
+            npm i
+      - name: Running build
+        uses: appleboy/ssh-action@v1.0.3
+        with:
+          host: ${{ secrets.HOST }}
+          username: ${{ secrets.SSH_USER }}
+          password: ${{ secrets.PASSWORD }}
+          script: |
+            cd /var/www/nextjs/riccardonuzzone.dev
+            npm run build
+      - name: Restarting server
+        uses: appleboy/ssh-action@v1.0.3
+        with:
+          host: ${{ secrets.HOST }}
+          username: ${{ secrets.SSH_USER }}
+          password: ${{ secrets.PASSWORD }}
+          script: pm2 restart riccardonuzzone.dev
       - run: echo "🍏 This job's status is ${{ job.status }}."
