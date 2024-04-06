@@ -92,7 +92,6 @@ const ParallaxCard = ({
     }
 
     const handleTouchMove = (evt: TouchEvent) => {
-        evt.preventDefault()
         const { pageX, pageY } = evt.touches[0]
         handleMove({ pageX, pageY })
     }

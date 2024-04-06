@@ -22,6 +22,19 @@ interface RootLayoutProps {
 const RootLayout = ({ children }: Readonly<RootLayoutProps>) => {
   return (
     <html lang="en">
+      <link rel="icon" href="/icon.ico" sizes="any" />
+      <link
+        rel="icon"
+        href="/icon?<generated>"
+        type="image/<generated>"
+        sizes="<generated>"
+      />
+      <link
+        rel="apple-touch-icon"
+        href="/apple-icon?<generated>"
+        type="image/<generated>"
+        sizes="<generated>"
+      />
       <body>
         <div className="layout w-full z-10 h-full max-md:overflow-y-auto max-md:before:h-full max-md:after:h-full">
           <Suspense>
