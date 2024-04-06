@@ -2,51 +2,51 @@
   "skills": [
     {
       "name": "JavaScript",
-      "icon": "/js.png"
+      "icon": "/techs/js.png"
     },
     {
       "name": "ES6+",
-      "icon": "/ecmascript.png"
+      "icon": "/techs/ecmascript.png"
     },
     {
       "name": "TypeScript",
-      "icon": "/typescript.svg"
+      "icon": "/techs/typescript.svg"
     },
     {
       "name": "React",
-      "icon": "/react.png"
+      "icon": "/techs/react.png"
     },
     {
       "name": "Angular",
-      "icon": "/angular.png"
+      "icon": "/techs/angular.png"
     },
     {
       "name": "Rx.js",
-      "icon": "/rxjs.png"
+      "icon": "/techs/rxjs.png"
     },
     {
       "name": "Redux",
-      "icon": "/redux.svg"
+      "icon": "/techs/redux.svg"
     },
     {
       "name": "HTML5",
-      "icon": "/html5.png"
+      "icon": "/techs/html5.png"
     },
     {
       "name": "CSS3",
-      "icon": "/css3.png"
+      "icon": "/techs/css3.png"
     },
     {
       "name": "Tailwind",
-      "icon": "/tailwind.png"
+      "icon": "/techs/tailwind.png"
     },
     {
       "name": "Bootstrap",
-      "icon": "/bootstrap.png"
+      "icon": "/techs/bootstrap.png"
     },
     {
       "name": "React Native",
-      "icon": "/react.png"
+      "icon": "/techs/react.png"
     }
   ],
   "experiences": [
@@ -65,15 +65,15 @@
       "technologies": [
         {
           "name": "Angular",
-          "icon": "/angular.png"
+          "icon": "/techs/angular.png"
         },
         {
           "name": "Angular material",
-          "icon": "/angularmaterial.svg"
+          "icon": "/techs/angularmaterial.svg"
         },
         {
           "name": "Rx.js",
-          "icon": "/rxjs.png"
+          "icon": "/techs/rxjs.png"
         }
       ]
     },
@@ -96,27 +96,27 @@
       "technologies": [
         {
           "name": "React",
-          "icon": "/react.png"
+          "icon": "/techs/react.png"
         },
         {
           "name": "SWR",
-          "icon": "/swr.png"
+          "icon": "/techs/swr.png"
         },
         {
           "name": "StoryBook",
-          "icon": "/storybook.svg"
+          "icon": "/techs/storybook.svg"
         },
         {
           "name": "Rollup",
-          "icon": "/rollup.jpg"
+          "icon": "/techs/rollup.jpg"
         },
         {
           "name": "Sass",
-          "icon": "/sass.png"
+          "icon": "/techs/sass.png"
         },
         {
           "name": "Formik",
-          "icon": "/formik.png"
+          "icon": "/techs/formik.png"
         },
         {
           "name": "Yup",
@@ -124,27 +124,27 @@
         },
         {
           "name": "Bootstrap Italia",
-          "icon": "/bootstrapitalia.png"
+          "icon": "/techs/bootstrapitalia.png"
         },
         {
           "name": "Node.js",
-          "icon": "/nodejs.png"
+          "icon": "/techs/nodejs.png"
         },
         {
           "name": "Express",
-          "icon": "/express.jpg"
+          "icon": "/techs/express.jpg"
         },
         {
           "name": "MongoDB",
-          "icon": "/mongodb.png"
+          "icon": "/techs/mongodb.png"
         },
         {
           "name": "PM2",
-          "icon": "/pm2.png"
+          "icon": "/techs/pm2.png"
         },
         {
           "name": "SCRUM",
-          "icon": "/scrum.svg"
+          "icon": "/techs/scrum.svg"
         }
       ]
     },
@@ -163,31 +163,31 @@
       "technologies": [
         {
           "name": "Angular",
-          "icon": "/angular.png"
+          "icon": "/techs/angular.png"
         },
         {
           "name": "Angular.js",
-          "icon": "/angular.png"
+          "icon": "/techs/angular.png"
         },
         {
           "name": "Webpack",
-          "icon": "/webpack.png"
+          "icon": "/techs/webpack.png"
         },
         {
           "name": "Kendo UI",
-          "icon": "/kendoui.png"
+          "icon": "/techs/kendoui.png"
         },
         {
           "name": "jQuery",
-          "icon": "/jquery.png"
+          "icon": "/techs/jquery.png"
         },
         {
           "name": "TypeScript",
-          "icon": "/typescript.svg"
+          "icon": "/techs/typescript.svg"
         },
         {
           "name": "SCRUM",
-          "icon": "/scrum.svg"
+          "icon": "/techs/scrum.svg"
         }
       ]
     },
@@ -210,27 +210,27 @@
       "technologies": [
         {
           "name": "Angular",
-          "icon": "/angular.png"
+          "icon": "/techs/angular.png"
         },
         {
           "name": "Rx.js",
-          "icon": "/rxjs.png"
+          "icon": "/techs/rxjs.png"
         },
         {
           "name": "TypeScript",
-          "icon": "/typescript.svg"
+          "icon": "/techs/typescript.svg"
         },
         {
           "name": "jQuery",
-          "icon": "/jquery.png"
+          "icon": "/techs/jquery.png"
         },
         {
           "name": "Webpack",
-          "icon": "/webpack.png"
+          "icon": "/techs/webpack.png"
         },
         {
           "name": "Rollup",
-          "icon": "/rollup.jpg"
+          "icon": "/techs/rollup.jpg"
         },
         {
           "name": "SCRUM",
@@ -238,19 +238,19 @@
         },
         {
           "name": "Node.js",
-          "icon": "/nodejs.png"
+          "icon": "/techs/nodejs.png"
         },
         {
           "name": "React",
-          "icon": "/react.png"
+          "icon": "/techs/react.png"
         },
         {
           "name": "Redux",
-          "icon": "/redux.svg"
+          "icon": "/techs/redux.svg"
         },
         {
           "name": "Formik",
-          "icon": "/formik.png"
+          "icon": "/techs/formik.png"
         },
         {
           "name": "Yup",
@@ -258,11 +258,11 @@
         },
         {
           "name": "Less",
-          "icon": "/less.webp"
+          "icon": "/techs/less.webp"
         },
         {
           "name": "Lerna",
-          "icon": "/lerna.png"
+          "icon": "/techs/lerna.png"
         }
       ]
     },
@@ -285,27 +285,27 @@
         },
         {
           "name": "Node.js",
-          "icon": "/nodejs.png"
+          "icon": "/techs/nodejs.png"
         },
         {
           "name": "React",
-          "icon": "/react.png"
+          "icon": "/techs/react.png"
         },
         {
           "name": "Redux",
-          "icon": "/redux.svg"
+          "icon": "/techs/redux.svg"
         },
         {
           "name": "Material UI",
-          "icon": "/materialui.png"
+          "icon": "/techs/materialui.png"
         },
         {
           "name": "Moment",
-          "icon": "/moment.png"
+          "icon": "/techs/moment.png"
         },
         {
           "name": "Chart.js",
-          "icon": "/chartjs.png"
+          "icon": "/techs/chartjs.png"
         }
       ]
     }
@@ -319,15 +319,15 @@
       "technologies": [
         {
           "name": "Angular",
-          "icon": "/angular.png"
+          "icon": "/techs/angular.png"
         },
         {
           "name": "TypeScript",
-          "icon": "/typescript.svg"
+          "icon": "/techs/typescript.svg"
         },
         {
           "name": "Leaflet",
-          "icon": "/leaflet.jpg"
+          "icon": "/techs/leaflet.jpg"
         },
         {
           "name": "Angular Gridster",
@@ -343,27 +343,27 @@
       "technologies": [
         {
           "name": "JavaScript",
-          "icon": "/js.png"
+          "icon": "/techs/js.png"
         },
         {
           "name": "ES6+",
-          "icon": "/ecmascript.png"
+          "icon": "/techs/ecmascript.png"
         },
         {
           "name": "React",
-          "icon": "/react.png"
+          "icon": "/techs/react.png"
         },
         {
           "name": "Redux",
-          "icon": "/redux.svg"
+          "icon": "/techs/redux.svg"
         },
         {
           "name": "Material UI",
-          "icon": "/materialui.png"
+          "icon": "/techs/materialui.png"
         },
         {
           "name": "Moment",
-          "icon": "/moment.png"
+          "icon": "/techs/moment.png"
         }
       ]
     }
