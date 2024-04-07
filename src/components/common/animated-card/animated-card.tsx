@@ -2,6 +2,7 @@
 
 import { CSSProperties, Children, MouseEvent, ReactElement, ReactNode, TouchEvent, cloneElement, createElement, useEffect, useRef, useState } from 'react'
 import './animated-card.css'
+import { isAPhone } from '@/utils/utils';
 
 interface ParallaxCardProps {
     isStatic?: boolean;
@@ -92,19 +93,25 @@ const ParallaxCard = ({
     }
 
     const handleTouchMove = (evt: TouchEvent) => {
-        const { pageX, pageY } = evt.touches[0]
-        handleMove({ pageX, pageY })
+        if (!isAPhone()) {
+            const { pageX, pageY } = evt.touches[0]
+            handleMove({ pageX, pageY })
+        }
     }
 
     const handleEnter = () => {
-        setIsOnHover(true)
+        if (!isAPhone()) {
+            setIsOnHover(true)
+        }
     }
 
     const handleLeave = () => {
-        setIsOnHover(false)
-        setContainer({})
-        setShine({})
-        setLayersTransform([])
+        if (!isAPhone()) {
+            setIsOnHover(false)
+            setContainer({})
+            setShine({})
+            setLayersTransform([])
+        }
     }
 
     const renderLayers = () => {
@@ -144,8 +151,6 @@ const ParallaxCard = ({
                     transformStyle: 'preserve-3d',
                     WebkitTapHighlightColor: 'rgba(#000, 0)',
                     cursor: cursorPointer ? 'pointer' : undefined,
-                    // transform: `perspective(${rootElemWidth * 3}px)`,
-                    // zIndex: isOnHover ? '9' : 'unset',
                     width: '100%'
                 }}
                 onMouseMove={handleMove}
@@ -170,15 +175,6 @@ const ParallaxCard = ({
                         className='parallax-card-shadow'
                         style={{
                             position: 'absolute',
-                            // top: '5%',
-                            // left: '5%',
-                            // right: '5%',
-                            // bottom: '5%',
-                            // transition: 'all 0.2s ease-out',
-                            // zIndex: '0',
-                            // boxShadow: isOnHover
-                            //     ? '0 45px 100px rgba(14, 21, 47, 0.4), 0 16px 40px rgba(14, 21, 47, 0.4)'
-                            //     : '0 8px 30px rgba(14, 21, 47, 0.6)'
                         }}
                     />
                     <div
@@ -190,9 +186,6 @@ const ParallaxCard = ({
                             right: '0',
                             bottom: '0',
                             borderRadius,
-                            // background: `linear-gradient(135deg,rgba(255, 255, 255, ${shineStrength / 1.6
-                            //     }) 0%,rgba(255, 255, 255, 0) 60%)`,
-                            // zIndex: '8',
                             ...shine
                         }}
                     />
