@@ -30,7 +30,7 @@ const SkillsSection = ({ skills }: SkillsSectionProps) => {
     })
 
     return (
-        <div className="flex flex-wrap gap-3 text-sm">
+        <div className="flex max-md:overflow-x-scroll max-md:pb-2 lg:flex-wrap gap-3 text-sm text-nowrap">
             {renderSkills}
         </div>
     )
