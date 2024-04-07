@@ -98,6 +98,10 @@ main::-webkit-scrollbar-thumb:active {
     overflow-y: auto;
     height: 100%;
   }
+
+  .layout::after {
+    filter: none;
+  }
 }
 
 ::-moz-selection { /* Code for Firefox */

@@ -18,19 +18,6 @@ const IntroductionSection = ({ skills }: IntroductionSectionProps) => {
                     width={450}
                     height={450}
                 />
-                {/* <video
-                    preload="none"
-                    autoPlay
-                    muted
-                    loop
-                    playsInline
-                    width={500}
-                    height={500}
-                    className='pointer-events-none'
-                >
-                    <source src="/fedeveloper.webm" type="video/webm"/>
-                    Your browser does not support the video tag.
-                </video> */}
             </div>
             <div className="col-span-7 max-xl:col-span-12">
                 <div className="mb-6">
