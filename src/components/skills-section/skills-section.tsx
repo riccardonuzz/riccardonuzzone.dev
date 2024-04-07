@@ -30,15 +30,15 @@ const SkillsSection = ({ skills }: SkillsSectionProps) => {
     })
 
     return (
-        <div className="flex ">
+        <div className="flex">
              <Image
                 src='/caret.svg'
                 alt='left'
                 width={20}
                 height={20}
-                className='rotate-180 mb-2'
+                className='rotate-180 mb-2 md:hidden'
             />
-            <div className="flex max-md:overflow-x-scroll max-md:pb-2 lg:flex-wrap gap-3 text-sm text-nowrap">
+            <div className="flex max-md:overflow-x-scroll max-md:pb-2 md:flex-wrap gap-3 text-sm text-nowrap">
                 {renderSkills}
             </div>
 
@@ -47,7 +47,7 @@ const SkillsSection = ({ skills }: SkillsSectionProps) => {
                 alt='right'
                 width={20}
                 height={20}
-                className='mb-2'
+                className='mb-2 md:hidden'
             />
             
         </div>
