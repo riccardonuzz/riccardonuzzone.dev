@@ -7,7 +7,7 @@ import PersonalProjectsSection from '@/components/sections/personal-projects-sec
 const Home = () => {
   return (
     <main className="w-full h-screen max-md:h-full max-md:overflow-y-hidden overflow-y-auto overflow-x-hidden max-lg:p-10 max-2xl:p-10 pr-44 scrollbar">
-      <section id='introduction' className='h-auto lg:h-screen flex flex-col justify-center items-center'>
+      <section id='introduction' className='h-auto xl:h-screen flex flex-col justify-center items-center'>
         <IntroductionSection skills={data.skills} />
       </section>
 

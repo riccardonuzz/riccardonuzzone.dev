@@ -1,19 +1,25 @@
 import type { Metadata, Viewport } from "next";
-import localFont from "next/font/local";
 import { ReactNode, Suspense } from "react";
 
 import "./globals.css";
 import Flashlight from "@/components/flashlight/flashlight";
 import SideMenu from "@/components/side-menu/side-menu";
 
+
 export const metadata: Metadata = {
+  metadataBase: new URL('https://www.riccardonuzzone.dev'),
   title: "Riccardo Nuzzone",
-  description: "Riccardo Nuzzone: a passionate front-end developer!"
+  description: "Riccardo Nuzzone: a passionate front-end developer!",
+  openGraph: {
+    title: "Riccardo Nuzzone",
+    description: "Riccardo Nuzzone: a passionate front-end developer!",
+    images: ['/opengraph-cover.png']
+  },
 };
 
 export const viewport: Viewport = {
-  themeColor: '#000056',
-}
+  themeColor: "#000056",
+};
 
 interface RootLayoutProps {
   children: ReactNode;
