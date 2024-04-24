@@ -8,7 +8,6 @@ export interface ExperiencesSectionProps {
 
 const ExperiencesSection = ({ experiences }: ExperiencesSectionProps) => {
   return experiences.map((experience) => {
-
     const renderProjects = experience.projects.map((project) => {
       return (
         <div key={project.name} className="mb-2">
@@ -20,7 +19,14 @@ const ExperiencesSection = ({ experiences }: ExperiencesSectionProps) => {
       );
     });
 
-    const title = <span className="mr-2">{experience.company}</span>;
+    const title = (
+      <div>
+        <span className="mr-2">{experience.company}</span>
+        <div className="flex lg:hidden">
+          <span className="text-base italic font-normal text-white/70">{`${experience.from} - ${experience.to}`}</span>
+        </div>
+      </div>
+    );
 
     return (
       <div key={experience.company} className="grid grid-cols-12 mb-6">
