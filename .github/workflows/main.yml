@@ -9,14 +9,14 @@ jobs:
       - name: Verify package.json exists before deploy
         run: ls -la
       - name: Copying files to VPS
-        uses: garygrossgarten/github-action-scp@release
+        uses: appleboy/scp-action@v1
         with:
-          local: ./
-          remote: /var/www/nextjs/riccardonuzzone.dev
           host: ${{ secrets.HOST }}
           username: ${{ secrets.SSH_USER }}
           password: ${{ secrets.PASSWORD }}
-          rmRemote: true
+          source: "./*"
+          target: "/var/www/nextjs/riccardonuzzone.dev"
+          rm: true
       - name: Reinstalling packages
         uses: appleboy/ssh-action@v1.0.3
         with:
@@ -25,7 +25,6 @@ jobs:
           password: ${{ secrets.PASSWORD }}
           script: |
             cd /var/www/nextjs/riccardonuzzone.dev
-            ls -la .
             echo "$PWD"
             npm i
       - name: Running build
