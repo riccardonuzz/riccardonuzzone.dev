@@ -6,6 +6,8 @@ jobs:
     steps:
       - name: Check out repository code
         uses: actions/checkout@v4
+      - name: Verify package.json exists before deploy
+        run: ls -la
       - name: Copying files to VPS
         uses: garygrossgarten/github-action-scp@release
         with:
