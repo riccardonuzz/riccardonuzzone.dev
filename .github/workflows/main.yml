@@ -23,6 +23,7 @@ jobs:
           password: ${{ secrets.PASSWORD }}
           script: |
             cd /var/www/nextjs/riccardonuzzone.dev
+            ls .
             echo "$PWD"
             npm i
       - name: Running build
